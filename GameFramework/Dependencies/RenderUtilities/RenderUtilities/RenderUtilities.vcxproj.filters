@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Lightning">
+      <UniqueIdentifier>{b22c5242-334f-45f8-8e78-ce1954383d68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{75a8d1cc-4636-4367-b78f-d4417cc37087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Voxel">
+      <UniqueIdentifier>{6d370e90-86d8-4b2e-813d-0e2165eea6d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{07c50d83-424c-4020-8681-c9280e819126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{d7e4d358-c12e-47bc-9795-152689af1abe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprite">
+      <UniqueIdentifier>{d232aec3-7b2b-46e6-993c-f9e3bf61e6be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResourceManager">
+      <UniqueIdentifier>{3a48d0c5-4b12-4237-b05b-eae4bb4b89af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\CommonUtilities\CommonUtilities\BaseLight.h">
+      <Filter>Lightning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonUtilities\CommonUtilities\DirectionalLight.h">
+      <Filter>Lightning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonUtilities\CommonUtilities\LoadModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonUtilities\CommonUtilities\Model.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonUtilities\CommonUtilities\Voxel.h">
+      <Filter>Voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Renderer.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite\Sprite.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\Window.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderCommand.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\CommonUtilities\CommonUtilities\BaseLight.cpp">
+      <Filter>Lightning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonUtilities\CommonUtilities\DirectionalLight.cpp">
+      <Filter>Lightning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonUtilities\CommonUtilities\LoadModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonUtilities\CommonUtilities\Model.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Renderer.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite\Sprite.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\Window.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+﻿  Window.cpp
+  Sprite.cpp
+  Renderer.cpp
+  Model.cpp
+  LoadModel.cpp
+  DirectionalLight.cpp
+  BaseLight.cpp
+  Generating Code...
+  RenderUtilities.vcxproj -> C:\Users\stdaca1\Google Drive\CurrentGameFramework\GameFramework (1)\Debug\RenderUtilities.lib

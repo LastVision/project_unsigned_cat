@@ -1,0 +1,17 @@
+﻿Build started 2015-03-22 19:21:17.
+     1>Project "D:\Dev\Workshop\Visual Studio\C++\GameFramework\GameFramework\GameFramework.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Dev\Programs\Visual Studio 2013\VC\bin\CL.exe /c /Zi /nologo /W4 /WX /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"ReleaseBin\Intermediate\\" /Fd"ReleaseBin\Intermediate\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+       Link:
+         D:\Dev\Programs\Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Dev\Workshop\Visual Studio\C++\GameFramework\Bin\Release\GameFramework.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Dev\Workshop\Visual Studio\C++\GameFramework\Bin\Release\GameFramework.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Dev\Workshop\Visual Studio\C++\GameFramework\Bin\Release\GameFramework.lib" /MACHINE:X86 /SAFESEH ReleaseBin\Intermediate\Source.obj
+         "D:\Dev\Workshop\Visual Studio\C++\GameFramework\bin\CommonUtilities.lib"
+         Generating code
+     1>d:\dev\workshop\visual studio\c++\gameframework\dependencies\commonutilities\commonutilities\stackwalker.cpp(895): warning C4740: flow in or out of inline asm code suppresses global optimization
+         Finished generating code
+         GameFramework.vcxproj -> D:\Dev\Workshop\Visual Studio\C++\GameFramework\Bin\Release\GameFramework.exe
+     1>Done Building Project "D:\Dev\Workshop\Visual Studio\C++\GameFramework\GameFramework\GameFramework.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.80

@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{0728635c-11ab-4493-b7e4-a1b6ed936db8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Vector">
+      <UniqueIdentifier>{c4a7c26c-400f-4927-8a3e-c3dcc2ea274e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{ccd66999-7f4a-4192-bb68-ebe81bd9df7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{5e979db4-5083-45a0-aff4-7d6b8774d87d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML">
+      <UniqueIdentifier>{3566aed8-286e-4d1f-a055-9f77fb7c11e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Line">
+      <UniqueIdentifier>{9043e1d9-8d9a-49f5-81bb-599e31f2008d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Plane">
+      <UniqueIdentifier>{6b26a08b-bf99-41e1-b311-2eb1140adc77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Matrix">
+      <UniqueIdentifier>{7f9f8323-7b9c-4ffc-81d5-86142eef4413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{2f238d45-0344-408d-8fc0-f63262bcba2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers">
+      <UniqueIdentifier>{366986af-171f-4870-af59-b379b6ec571d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers\Arrays">
+      <UniqueIdentifier>{7f1f48fc-e102-4ebf-ae63-64a2c0850709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers\Lists">
+      <UniqueIdentifier>{d7c7033a-ad6c-4e88-b64f-044c97f97744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers\Stack">
+      <UniqueIdentifier>{6d9dbd6b-943e-4d73-877d-5fe9e4d50c55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timer">
+      <UniqueIdentifier>{afee9429-48ac-4c51-ae88-dbea22a2bf01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{90f517f8-8814-4c1f-bbbe-06bedb2f7af8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThreadPool">
+      <UniqueIdentifier>{ccab62c3-ed80-44d8-8302-a0f0dd767dca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StaticArray.h">
+      <Filter>Containers\Arrays</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorOnStack.h">
+      <Filter>Containers\Arrays</Filter>
+    </ClInclude>
+    <ClInclude Include="GrowingArray.h">
+      <Filter>Containers\Arrays</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2decl.h">
+      <Filter>Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3decl.h">
+      <Filter>Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4decl.h">
+      <Filter>Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Math\Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneVolume.h">
+      <Filter>Math\Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Math\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="LineVolume.h">
+      <Filter>Math\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Math\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix33.h">
+      <Filter>Math\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix33decl.h">
+      <Filter>Math\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix44.h">
+      <Filter>Math\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix44decl.h">
+      <Filter>Math\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleLinkedList.h">
+      <Filter>Containers\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleLinkedListNode.h">
+      <Filter>Containers\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>Containers\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="Work.h">
+      <Filter>ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="Worker.h">
+      <Filter>ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="Syncronizer.h">
+      <Filter>ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="DL_Assert.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="DL_Debug.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="DL_StackWalker.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="StackWalker.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionData.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Fov90Frustrum.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="LineSegment2D.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="LineSegment3D.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandler.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerManager.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>XML</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumKeys.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="XboxController.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPool.cpp">
+      <Filter>ThreadPool</Filter>
+    </ClCompile>
+    <ClCompile Include="Work.cpp">
+      <Filter>ThreadPool</Filter>
+    </ClCompile>
+    <ClCompile Include="Worker.cpp">
+      <Filter>ThreadPool</Filter>
+    </ClCompile>
+    <ClCompile Include="Syncronizer.cpp">
+      <Filter>ThreadPool</Filter>
+    </ClCompile>
+    <ClCompile Include="DL_Debug.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="DL_StackWalker.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="StackWalker.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandler.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerManager.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="XboxController.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,26 @@
+﻿Build started 2015-03-22 19:21:16.
+     1>Project "D:\Dev\Workshop\Visual Studio\C++\GameFramework\dependencies\CommonUtilities\CommonUtilities\CommonUtilities.vcxproj" on node 2 (Build target(s)).
+     1>Lib:
+         D:\Dev\Programs\Visual Studio 2013\VC\bin\Lib.exe /OUT:"D:\Dev\Workshop\Visual Studio\C++\GameFramework\bin\CommonUtilities.lib" /NOLOGO /LTCG Releasebin\Intermediate\BaseLight.obj
+         Releasebin\Intermediate\DirectionalLight.obj
+         Releasebin\Intermediate\DL_Debug.obj
+         Releasebin\Intermediate\DL_StackWalker.obj
+         Releasebin\Intermediate\InputHandler.obj
+         Releasebin\Intermediate\LoadModel.obj
+         Releasebin\Intermediate\Model.obj
+         Releasebin\Intermediate\StackWalker.obj
+         Releasebin\Intermediate\Syncronizer.obj
+         Releasebin\Intermediate\ThreadPool.obj
+         Releasebin\Intermediate\Time.obj
+         Releasebin\Intermediate\Timer.obj
+         Releasebin\Intermediate\TimerManager.obj
+         Releasebin\Intermediate\tinyxml2.obj
+         Releasebin\Intermediate\Utilities.obj
+         Releasebin\Intermediate\Work.obj
+         Releasebin\Intermediate\Worker.obj
+         CommonUtilities.vcxproj -> D:\Dev\Workshop\Visual Studio\C++\GameFramework\bin\CommonUtilities.lib
+     1>Done Building Project "D:\Dev\Workshop\Visual Studio\C++\GameFramework\dependencies\CommonUtilities\CommonUtilities\CommonUtilities.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.02

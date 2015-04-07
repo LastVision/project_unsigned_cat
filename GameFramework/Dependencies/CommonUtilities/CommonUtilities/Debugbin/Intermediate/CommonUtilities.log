@@ -1,0 +1,17 @@
+﻿  XboxController.cpp
+  Worker.cpp
+  Work.cpp
+  Utilities.cpp
+  tinyxml2.cpp
+  TimerManager.cpp
+  Timer.cpp
+  Time.cpp
+  ThreadPool.cpp
+  Syncronizer.cpp
+  InputHandler.cpp
+  DL_Debug.cpp
+  Generating Code...
+  StackWalker.cpp
+  DL_StackWalker.cpp
+  Generating Code...
+  CommonUtilities.vcxproj -> C:\Users\stdaca1\Google Drive\CurrentGameFramework\GameFramework (1)\bin\CommonUtilities.lib
