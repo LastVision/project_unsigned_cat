@@ -1,9 +1,9 @@
-﻿  Window.cpp
-  Sprite.cpp
-  Renderer.cpp
-  Model.cpp
-  LoadModel.cpp
-  DirectionalLight.cpp
-  BaseLight.cpp
-  Generating Code...
-  RenderUtilities.vcxproj -> C:\Users\stdaca1\Google Drive\CurrentGameFramework\GameFramework (1)\Debug\RenderUtilities.lib
+﻿Build started 2015-04-12 17:35:16.
+     1>Project "D:\GitHub\ProjectUnsignedCat\branches\Daniels-branch-test\GameFramework\Dependencies\RenderUtilities\RenderUtilities\RenderUtilities.vcxproj" on node 2 (Build target(s)).
+     1>Lib:
+         RenderUtilities.vcxproj -> D:\GitHub\ProjectUnsignedCat\branches\Daniels-branch-test\GameFramework\Debug\RenderUtilities.lib
+     1>Done Building Project "D:\GitHub\ProjectUnsignedCat\branches\Daniels-branch-test\GameFramework\Dependencies\RenderUtilities\RenderUtilities\RenderUtilities.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.07

@@ -33,8 +33,8 @@ bool Game::Update()
 	}
 	else if (myInput.GetKeyDown(DIK_B) == true)
 	{
-		RU::Renderer::GetInstance()->RU::Renderer::SetBackgroundColor(0xFF0000FF);
-		ss = "Blue ";
+		RU::Renderer::GetInstance()->RU::Renderer::SetBackgroundColor(0xFFFF00FF);
+		ss = "Pink ";
 	}
 	else if (myInput.GetKeyDown(DIK_ESCAPE) == true)
 	{

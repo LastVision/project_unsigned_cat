@@ -1,17 +1,9 @@
-﻿  XboxController.cpp
-  Worker.cpp
-  Work.cpp
-  Utilities.cpp
-  tinyxml2.cpp
-  TimerManager.cpp
-  Timer.cpp
-  Time.cpp
-  ThreadPool.cpp
-  Syncronizer.cpp
-  InputHandler.cpp
-  DL_Debug.cpp
-  Generating Code...
-  StackWalker.cpp
-  DL_StackWalker.cpp
-  Generating Code...
-  CommonUtilities.vcxproj -> C:\Users\stdaca1\Google Drive\CurrentGameFramework\GameFramework (1)\bin\CommonUtilities.lib
+﻿Build started 2015-04-12 17:35:16.
+     1>Project "D:\GitHub\ProjectUnsignedCat\branches\Daniels-branch-test\GameFramework\dependencies\CommonUtilities\CommonUtilities\CommonUtilities.vcxproj" on node 2 (Build target(s)).
+     1>Lib:
+         CommonUtilities.vcxproj -> D:\GitHub\ProjectUnsignedCat\branches\Daniels-branch-test\GameFramework\bin\CommonUtilities.lib
+     1>Done Building Project "D:\GitHub\ProjectUnsignedCat\branches\Daniels-branch-test\GameFramework\dependencies\CommonUtilities\CommonUtilities\CommonUtilities.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.08

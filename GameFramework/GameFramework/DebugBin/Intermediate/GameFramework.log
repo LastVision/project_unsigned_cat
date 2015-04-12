@@ -1,4 +1,16 @@
-﻿  Source.cpp
-  Game.cpp
-  Generating Code...
-  GameFramework.vcxproj -> C:\Users\stdaca1\Google Drive\CurrentGameFramework\GameFramework (1)\Bin\Debug\GameFramework.exe
+﻿Build started 2015-04-12 17:35:16.
+     1>Project "D:\GitHub\ProjectUnsignedCat\branches\Daniels-branch-test\GameFramework\GameFramework\GameFramework.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Dev\Programs\Visual Studio 2013\VC\bin\CL.exe /c /ZI /nologo /W4 /WX /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"DebugBin\Intermediate\\" /Fd"DebugBin\Intermediate\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp
+         Game.cpp
+       Link:
+         D:\Dev\Programs\Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GitHub\ProjectUnsignedCat\branches\Daniels-branch-test\GameFramework\Bin\Debug\GameFramework.exe" /INCREMENTAL /NOLOGO hge.lib hgehelp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libc.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\GitHub\ProjectUnsignedCat\branches\Daniels-branch-test\GameFramework\Bin\Debug\GameFramework.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GitHub\ProjectUnsignedCat\branches\Daniels-branch-test\GameFramework\Bin\Debug\GameFramework.lib" /MACHINE:X86 DebugBin\Intermediate\Game.obj
+         DebugBin\Intermediate\Source.obj
+         "D:\GitHub\ProjectUnsignedCat\branches\Daniels-branch-test\GameFramework\bin\CommonUtilities.lib"
+         "D:\GitHub\ProjectUnsignedCat\branches\Daniels-branch-test\GameFramework\Debug\RenderUtilities.lib"
+         GameFramework.vcxproj -> D:\GitHub\ProjectUnsignedCat\branches\Daniels-branch-test\GameFramework\Bin\Debug\GameFramework.exe
+     1>Done Building Project "D:\GitHub\ProjectUnsignedCat\branches\Daniels-branch-test\GameFramework\GameFramework\GameFramework.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.85
